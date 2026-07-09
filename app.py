@@ -21,9 +21,9 @@ st.set_page_config(
 # LOAD MODELS
 # ----------------------------
 
-model = joblib.load("saved_models/resume_classifier.pkl")
-tfidf = joblib.load("saved_models/tfidf.pkl")
-encoder = joblib.load("saved_models/label_encoder.pkl")
+model = joblib.load("resume_classifier.pkl")
+tfidf = joblib.load("tfidf.pkl")
+encoder = joblib.load("label_encoder.pkl")
 
 # ----------------------------
 # CUSTOM CSS
